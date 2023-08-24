@@ -2,13 +2,13 @@ package com.happyday.objectconversiondemo.conversion;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.happyday.objectconversiondemo.model.Student;
+import com.happyday.objectconversiondemo.conversion.xml_java.model.Student;
 import jakarta.xml.bind.JAXBException;
 
 import java.util.ArrayList;
 import java.util.List;
 
-public class JavaToJSON {
+public class StudentClassToJSON {
     public static void main(String[] args) throws JAXBException, JsonProcessingException {
         //Java To JSON And Back
 

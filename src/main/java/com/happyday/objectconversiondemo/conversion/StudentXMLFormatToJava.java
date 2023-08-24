@@ -1,11 +1,11 @@
 package com.happyday.objectconversiondemo.conversion;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.happyday.objectconversiondemo.model.Student;
+import com.happyday.objectconversiondemo.conversion.xml_java.model.Student;
 
 import java.io.File;
 
-public class JSONToJava {
+public class StudentXMLFormatToJava {
     public static void main(String[] args) throws Exception {
        // convertJsonToJava();
         convertJsonToJavaObjects();

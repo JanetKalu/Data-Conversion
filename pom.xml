@@ -38,6 +38,50 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
+		<!-- https://mvnrepository.com/artifact/jakarta.xml.bind/jakarta.xml.bind-api -->
+		<dependency>
+			<groupId>jakarta.xml.bind</groupId>
+			<artifactId>jakarta.xml.bind-api</artifactId>
+			<version>4.0.0</version>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/com.sun.xml.bind/jaxb-impl -->
+		<dependency>
+			<groupId>com.fasterxml.jackson.core</groupId>
+			<artifactId>jackson-databind</artifactId>
+			<version>2.15.2</version>
+		</dependency>
+		<dependency>
+			<groupId>com.sun.xml.bind</groupId>
+			<artifactId>jaxb-impl</artifactId>
+			<version>4.0.0</version>
+		</dependency>
+		<dependency>
+			<groupId>org.projectlombok</groupId>
+			<artifactId>lombok</artifactId>
+			<scope>provided</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.json</groupId>
+			<artifactId>json</artifactId>
+			<version>20230618</version>
+		</dependency>
+		<!--		<dependency>-->
+		<!--			<groupId>org.apache.tomcat.embed</groupId>-->
+		<!--			<artifactId>tomcat-embed-jasper</artifactId>-->
+		<!--			<scope>provided</scope>-->
+		<!--		</dependency>-->
+		<!--		<dependency>-->
+		<!--			<groupId>jarkata.servlet.jsp.jstl</groupId>-->
+		<!--			<artifactId>jarkata.servlet.jsp.jstl-api</artifactId>-->
+		<!--			<scope>3.0.0</scope>-->
+
+		<!--		</dependency>-->
+		<!--		<dependency>-->
+		<!--			<groupId>org.glassfish.webjarkata.servlet.jsp.jstl</groupId>-->
+		<!--			<artifactId>jarkata.servlet.jsp.jstl</artifactId>-->
+		<!--			<scope>3.0.1</scope>-->
+
+		<!--		</dependency>-->
 	</dependencies>
 
 	<build>
