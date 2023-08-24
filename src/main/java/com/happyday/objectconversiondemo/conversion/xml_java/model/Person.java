@@ -1,4 +1,4 @@
-package com.happyday.objectconversiondemo.model;
+package com.happyday.objectconversiondemo.conversion.xml_java.model;
 
 import jakarta.xml.bind.annotation.XmlElement;
 import jakarta.xml.bind.annotation.XmlRootElement;
